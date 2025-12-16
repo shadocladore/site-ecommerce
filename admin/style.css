@@ -1,0 +1,485 @@
+body { 
+	font-family: 'Century Gothic', Trebuchet MS, Arial, sans-serif;
+}
+#body_menu  {
+	background-color: rgb(0,25,40);
+	text-align: center;
+}	
+#block_menu {
+	margin-top: -30px;
+	text-align: left;
+}
+#block_menu p {
+	padding: 0px;
+	border-radius: 5px;
+	margin-left: 6%;
+}
+#block_menu p a {
+	position: relative;
+	top: -3px;
+	text-decoration:none; 
+	font-size: 1.0em;
+	color: white; 
+	width: 140px;  
+	font-weight:bold;
+	text-transform: uppercase;
+	margin:auto;
+}
+#block_menu p a:hover {
+	border-radius: 5px;
+	font-size:1.1em;
+}
+div#profil {
+	margin-top:0px;
+}
+div#profil i{
+	position:relative;
+	left: -30px; 
+}
+div#profil #photo {
+	border-radius: 25px;
+	margin-left: -60px;
+}
+div#profil span {
+	color: white;
+	font-size: 1.2em;
+	position:relative;
+	left: 30px; 
+	top: -30px;
+}
+#modifier {
+	color: black;
+	background-color: white;
+	box-shadow: 0px 0px 2px 5px rgb(0,25,40);
+	font-family: normal;
+	padding: 2px;
+	position: relative;
+	top: -307px;
+	width: 80%;
+	text-align:center;
+	left: 20px;
+}
+#modifier a {
+	text-decoration: none;
+	color: black;
+}
+div#profil em {
+	font-size: 0.7em;
+	opacity: 0.7;
+}
+/* Page de connexion à l'espace de travail */
+body#con {
+	background-color: rgb(64, 128, 128);
+	border: 10px solid rgb(0,25,40);
+}
+#formule {
+	background-color: rgb(0,25,40);
+	width: 60%;
+	margin: auto;
+	color: white;
+	font-size: 1.1em;
+	margin-top: 5%;
+	text-align: center;
+	padding: 1%;
+	box-shadow: 0px 0px 2px 7px red;
+}
+#formule input[type=submit] {
+	font-size: 1.1em;
+}
+#formule .champ {
+	border-radius: 7px;
+	color: black;
+	text-align: justify;
+}
+/*------------------Fin--------------------*/
+
+#body_entete {
+	background-color: rgb(0,25,40);
+}
+p#titre {
+	color: white; 
+	font-weight:bold;
+	font-size: 1.2em;
+	position:relative;
+	left: 0px;
+	top: 0px;
+}
+img#time {
+	position: relative;
+	top: 7px;
+}
+
+table#stat { 
+	width: 100%;
+	border: 2px white solid;
+}
+table#stat td {
+	border: 2px white solid;
+	width: 50%;
+	color: white;
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+table#stat td#cli {
+	background-color: rgb(255,0,0);
+	
+}
+table#stat td a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: -3px;
+}
+table#stat td#con {
+	background-color: rgb(255,0,128);
+}
+table#stat td#dep div {
+	margin-top: -7px;
+}
+table#stat td#dep {
+	background-color: rgb(0,255,0);
+}
+
+table#stat td#ser {
+	background-color: rgb(0,0,255);
+}
+form#search {
+	width: 50%;
+	height: 40px;
+	background: white;
+	box-shadow: 1px 1px 1px 1px #C0C0C0;
+	border: 3px solid rgb(0,25,40);
+	border-radius: 20px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+form#search input {
+	width: 90%;
+	height: 90%;
+	outline: none;
+	border: 0;
+	font-size: 1.0em;
+	border-radius: 20px;
+	position: relative;
+	text-align: center;
+	top: -32%;
+}
+form#search input::placeholder {
+	text-align: center;
+	font-size: 0.8em;
+}
+form#search input[type=image] {
+	width: 20px;
+	height: 20px;
+	opacity: 0.75;
+	position: relative;
+	top: -9px;
+}
+
+#bloc {
+	background: #fff;
+}
+#bloc h4{
+	font-size: 1.1em;
+	opacity: 0.9;
+	padding: 5px;
+	color: white;
+	background: rgb(0,25,40);
+}
+#bloc h4 a{
+	text-decoration: none;
+	color: white;
+}
+#bloc h4 a.lieu{
+	color: yellow;
+}
+#client {
+	text-align: center;
+}
+form#client {
+	margin: 0;
+	padding: 5px;
+	background-color: #fff;
+}
+form#client p {
+	display: inline-block;
+	width: 32%;
+	margin-top: -5px;
+	text-align: center;
+}
+form#client input, .em, select, textarea {
+	outline: none;
+	border: 2px solid  rgb(64, 128, 128);
+	border-radius: 2px;
+	padding: 7px;
+	text-align: center;
+	width: 90%;
+	box-shadow: 1Px 1px 1px 1px rgb(64, 128, 128);
+}
+form#client textarea {
+	width: 80%;
+	height: 35%;
+}
+form#client h6 {
+	font-size: 1.08em;
+	font-weight: normal;
+	margin-top: -5px;
+}
+input::placeholder {
+	opacity: 0.5; 
+	color: black;
+}
+form#client h3.send {
+	text-align: center;
+}
+form#client p label {
+	color: black;
+	font-size: 1.08em;
+}
+form#client h3.send button[type=submit] {
+	border: 0;
+	color: white;
+	font-size: 0.9em;
+	background: rgb(0,0,128);
+	border-radius: 3px;
+	padding: 5px 10px;	
+	position: relative;
+	top: 3.3px;
+	margin-right: 5px;
+}
+form#client h3.send button i {
+	position: relative;
+	top: -2px;
+	border: 0;
+	font-style: normal;
+}
+form#client h3.send a {
+	border: 0;
+	color: white;
+	text-decoration: none;
+	font-size: 0.8em;
+	background: rgb(237,28,28);
+	border-radius: 3px;
+	padding: 8.5px 15px;
+	font-style: normal;
+}
+form#client h3.send img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 4px;
+}
+
+.liste {
+	margin: auto;
+	width: 100%;
+	margin-left: 0px;
+	border: 1px rgb(0,25,40) solid;
+}
+.liste th {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+	background: rgb(0,25,40);
+}
+.liste td {
+	text-align: center;
+	color: black;
+	opacity: 0.9;
+}
+a.nouveau {
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 5px;
+	background: rgb(0,0,128);
+	border-radius: 8px;
+	color: white;
+	font-size: 1.0em;
+	margin-left: 15px;
+}
+a.imprimer {
+	font-family: Arial;
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 3px 10px 7px 10px;
+	background: green;
+	color: white;
+	font-size: 1.0em;
+	position: absolute;
+	right: 6%;
+	font-weight: bold;
+}
+a.imprimer2 {
+	font-family: Arial;
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 10px;
+	background: green;
+	color: white;
+	font-size: 1.0em;
+	margin-left: 76%;
+	font-weight: bold;
+}
+a.imprimer img {
+	position: relative;
+	top: 3px;
+}
+div#form {
+	font-size: 0.8em;
+	width: 17.5%;
+	border:2px black double;
+	background:  green;
+	position: top;
+	margin-left: 477px;
+	top: 50%;
+	color: white;
+	display: none;
+	cursor: hand;
+}
+.boutone {
+	font-family: Arial;
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 7px;
+	background: green;
+	color: white;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+img#actualiser {
+	position: relative;
+	top: 4px;
+}
+a#_client {
+	text-decoration: none;
+	color: rgb(0,0,128);
+	text-decoration: underline;
+}
+img.icone {
+	width: 25px;
+	height: 25px;
+}
+img.icone:hover {
+	width: 30px;
+	height: 30px;
+}
+.body_contenu {
+	background-color: #87CEEB;
+	padding: 20px;
+	padding-bottom: 0px;
+}
+.body_contenu span {
+	margin-bottom: 7px; 
+	margin-left: 15px; 
+	color:white; 
+	font-size:1.2em;
+}
+.body_contenu em {
+	background: red;
+	font-size:1.0em;
+	border: 2px solid white;
+	border-radius:5px; 
+	padding: 2px; 
+	color:white;
+}
+.body_contenu i a {
+	text-decoration: none;
+	color: white;
+	background: rgb(0,0,128);
+	border: 2px solid white;
+	border-radius:5px; 
+	padding: 2px; 
+}
+#espace {
+	padding: 5px;
+}
+img.ico {
+	position: relative;
+	top: 2px;
+}
+tr.titre td {
+	color:  rgb(0,25,40);
+	font-weight: bold;
+}
+th {
+	font-size: 1.1em;
+	color: black;
+}
+th.th_client{ 
+	font-size: 1.2em;
+	color: white;
+}
+.icones {
+	position: relative;
+	top: 8px;
+}
+a.button {
+	text-decoration: none;
+	padding: 3px 6px;
+	background: rgb(0,25,40);
+	color: white;
+	font-size: 1.0em;
+	border-radius: 10px;
+}
+a.button:hover{
+	padding: 4px;
+	font-size: 1.1em;
+}
+a.lien_client { 
+	text-decoration: none;
+	color: rgb(0,25,40);
+	text-decoration: underline;
+}
+a.lien_client:hover { 
+	text-decoration: none;
+	color: rgb(0,25,120);
+	font-size: 1.1em;
+}
+img#com_photo {
+	float: left;
+	margin-left: 115px;
+	margin-right: 15px;
+	border: 2px solid rgb(0,25,40);
+}
+#pied {
+	width: 100%;
+	height: 63px;
+	background: rgb(0,25,40);
+	font-size: 0.9em;
+	text-align: center;
+	color: white;
+	padding-top: 17px;
+}
+#pied i .mention {
+	color: rgb(0,255,0);
+}
+#pied a {
+	text-decoration:none;
+	color: white;
+	text-decoration: underline;
+}
+p#aff_prod {
+	margin-left: 250px;
+}
+p.erreur {
+	width: 80%;
+	color: red;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.0em;
+	background-color: rgb(0,255,100);
+	margin: auto;
+	font-weight: bold;
+}
+
+div#form input {
+	text-align: center;
+} 
+[data-tooltip] { /* on cible les attributs data-tooltip */
+cursor: hand;
+}

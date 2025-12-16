@@ -1,0 +1,109 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #d2d6de;
+    padding-top: 0.1%;
+    font-family: Century Gothic;
+}
+div#chat {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #dddfe2;
+    background-color: #000040;
+    vertical-align: middle;
+}
+div#chat div.titre {
+    padding-left: 3%;
+    height: 50px;
+    border-bottom: 10px solid #eaecf0;
+}
+div#chat div.titre img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 4px;
+}
+div#chat div.titre span {
+    color: #fff;
+    font-size: 1.2em;
+    position: relative;
+    top: -6px;
+}
+div#chat div.bloc_conversation {
+    text-align: left;
+    height: 370px;
+    overflow-y: scroll;
+    background-color: #000040;
+    border-bottom: 10px solid #eaecf0;
+    border-left: 10px solid #eaecf0;
+}
+div.bloc_conversation p img.bas {
+	width: 50px;
+	height: 30px;
+	z-index: 2;
+	position: relative;
+	margin-bottom: -35px;
+}
+div.bloc_conversation div.assistant p {
+	width: 50%; 
+	text-align: center;
+	padding: 10px 0px;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: green; 
+    margin-left: 10px;
+	border-radius:8px
+}
+div.bloc_conversation div.client {
+    text-align: right;
+}
+div.bloc_conversation div.client p {
+    width: 50%; 
+	text-align: center;
+	padding: 10px 0px;
+	color: #000040;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: #fff;
+	border-radius: 8px;
+    margin-left: 230px;
+}
+div#chat div.commentaire {
+    text-align: center;
+    height: 80px;
+    background-color: #000040;
+}
+div#chat div.commentaire div.champ{
+    width: auto;
+    height: 50px;
+    position: relative;
+    top: 13px;
+    
+}
+div#chat div.commentaire div.champ textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 86%;
+    height: 100%;
+    background-color: white;
+    font-size: 1.1em;
+    border-radius: 3px 0px 0px 3px;
+    outline: none;
+}
+div#chat div.commentaire div.champ button[type=submit] {
+    height: 56px;
+    width: 50px;
+    border: 0;
+    outline: none;
+    background-color: orangered;
+    vertical-align: top;
+    border-radius: 0px 3px 3px 0px;
+}
+div#chat div.commentaire div.champ button[type=submit] em {
+    color: #000040;
+    font-size: 1.4em;
+    font-style: normal;
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+}

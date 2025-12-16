@@ -1,0 +1,1 @@
+<center><iframe src="accueil.php" width="560" height="470"></iframe></center>
