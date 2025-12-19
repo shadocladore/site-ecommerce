@@ -30,7 +30,7 @@ Il sert de **support pédagogique pour le TPE en Introduction au Génie Logiciel
 ### **Étapes**
 1. Cloner le dépôt GitHub :
 ```bash
-git clone https://github.com/TON_COMPTE/nom-du-site.git
+git clone https://github.com/Shadocladore/site-ecommerce.git
 
 2. Copier le dossier ecommerce dans le répertoire htdocs de XAMPP :
 
@@ -53,10 +53,10 @@ C:\xampp\htdocs\ecommerce
 1. Ouvrir phpMyAdmin : http://localhost/phpmyadmin/
 
 
-2. Créer une base de données : ecommerce_db
+2. Créer une base de données : 'boutique' 
 
 
-3. Importer le fichier database.sql fourni
+3. Importer le fichier boutique.sql fourni dans le dossier 'database' du projet
 
 
 4. Vérifier que toutes les tables sont correctement créées
